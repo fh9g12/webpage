@@ -34,7 +34,7 @@ permalink: /about/
 </div>
 {% endfor %}
 
-{% if site.data.grants %}
+{% if site.data.grants and site.data.grants.size > 0 %}
 
 <div class="jumbotron">
   <h3>Grants</h3>

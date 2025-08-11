@@ -7,26 +7,12 @@ permalink: /
 
 ### Welcome!
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
-
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
-</center>
-</div>
-</div>
-<br/>
+Welcome to my Academic profile! I work on the experimental and numerical aeroelastic testing of highly flexible aircraft, developing modelling tools to evaluate nonlinear deflections and assess novel load alleviation strategies for next-generation aircraft.
 
 ### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I am an aerospace researcher focused on the aeroelastic behaviour of highly flexible aircraft. I have a background in structural dynamics, experimental testing, and numerical modelling, developed through his engineering studies and a stint in industry.
+
+I completed a PhD at the University of Bristol on floating wingtip extensions designed to reduce loads during manoeuvres. This work combined wind tunnel experiments with low-order nonlinear modelling to study how large deflections affect aircraft stability.
+
+Since then, my research has included the conceptual design of hydrogen-powered aircraft and the influence of liquid sloshing on flight dynamics. I am currently developing techniques for predicting nonlinear instabilities in flexible structures, alongside a software framework to support the modeling and analysis of flexible aircraft. My work aims to support the design of lighter, safer, and more sustainable aircraft.

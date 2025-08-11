@@ -39,15 +39,34 @@ iframe {
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
-<h4><b>Example Software</b></h4>
-<a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<h4><b>Binary Aircraft File Format (BAFF)</b></h4>
+<a href="https://dcrgdocs.readthedocs.io/en/latest/overviews/baff/index.html" target="_blank"><button class="btn btn-success btn-sm">DOCS</button></a>
+<a href="https://github.com/dcrg-bristol/baff" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
 
 <b>Authors:</b>
-<i>Example authors</i>
+<i>Fintan Healy</i>
 
-Example software description.
+The Binary Aircraft File Format (Baff) is a platform-agnostic, binary schema for aircraft structures. It aims to allow engineers to exchange information seamlessly between different analysis tools.
+
+</div>
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Matran</b></h4>
+<a href="https://dcrgdocs.readthedocs.io/en/latest/overviews/matran/index.html" target="_blank"><button class="btn btn-success btn-sm">DOCS</button></a>
+<a href="https://github.com/dcrg-bristol/matran" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
+
+<b>Authors:</b>
+<i>Fintan Healy,</i>
+<i>Christopher Szczyglowski</i>
+
+A series of Matlab tools to:
+- read and write Nastran BDF files
+- read Nastran results files
+- visualise Nastran models
 
 </div>
 </div>

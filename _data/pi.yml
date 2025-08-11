@@ -1,17 +1,18 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+- name: Dr. Fintan Healy
+  photo: FH-portrait.jpg
+  info: Fintan Healy, University of Bristol
+  email: fintan.healy@bristol.ac.uk
+  github: https://github.com/fh9g12/
+  researchgate: https://www.researchgate.net/profile/Fintan-Healy-2
+  scholar: https://scholar.google.com/citations?user=V6SUlLMAAAAJ
+  linkedin: https://www.linkedin.com/in/fintan-healy/
   cv: cv/cv.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(1942) Ph.D. Physics, Princeton University",
-      "(1939) B.S. Physics, Massachusetts Institute of Technology",
+      "(2024) Ph.D. Aerospace Engineering, University of Bristol",
+      "(2017) MEng Aerospace Engineering, University of Southampton",
     ]
 
   educationshort:
-    ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+    ["(2024) Ph.D. Aerospace Engineering, University of Bristol", "(2017) MEng Aerospace Engineering, University of Southampton"]
