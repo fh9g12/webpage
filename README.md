@@ -6,7 +6,6 @@ If you would like to use this as a template please follow these instructions.
 
 * Fork [this repository](https://github.com/sbryngelson/sbryngelson.github.io) by clicking the `fork` button in the top-right corner of its Github page.
 * Install [Jekyll](https://jekyllrb.com/docs/installation/)  (version less than 4.0 required) on your local computer
-    * On MacOS, you will need to upgrade your Ruby version from the depricated v2.3 that is shipped. Follow the above Jekyll instructions closely.
 * Run `$ bundle install` to install dependenccies
 * Run `$ bundle exec jekyll serve` in the repository root directory
 * Your site is now hosted locally at `localhost:4000`, which you can access with your web browser.
@@ -66,7 +65,7 @@ Modify according to your needs.
 
 ## Acknowledgment
 
-I credit [Spencer Bryngelson](https://github.com/sbryngelson/academic-website-template) for creating the original template, who inturn credits the [Allen Lab](https://www.allanlab.org/) for creating a beautiful academic research group webpage.
+Credit to [Spencer Bryngelson](https://github.com/sbryngelson/academic-website-template) for creating the original template, who inturn credits the [Allen Lab](https://www.allanlab.org/) for creating a beautiful academic research group webpage.
 
 ## License
 
