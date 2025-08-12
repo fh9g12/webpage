@@ -64,17 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    
                 <a class="nav-item nav-link" href="https://www.fintanhealy.co.uk/publications">Publications</a>
                    
-                <a class="nav-item nav-link" href="https://www.fintanhealy.co.uk/talks">Talks</a>
-                   
-                <a class="nav-item nav-link" href="https://www.fintanhealy.co.uk/research">Research</a>
-                   
                 <a class="nav-item nav-link" href="https://www.fintanhealy.co.uk/software">Software</a>
-                   
-                <a class="nav-item nav-link" href="https://www.fintanhealy.co.uk/team">Team</a>
-                   
-                <a class="nav-item nav-link" href="https://www.fintanhealy.co.uk/teaching">Teaching</a>
-                   
-                <a class="nav-item nav-link" href="https://www.fintanhealy.co.uk/blogs">Blogs</a>
             
         </div>
     </div>
@@ -91,6 +81,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     padding-top:10px;
     margin-top:10px;
     margin-bottom:30px;
+}
+
+/* Hide list numbering for bibliography */
+.bibliography {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bibliography li {
+    margin-bottom: 1em;
+}
+
+/* Add space after reference number */
+.bibliography li .reference-number::after {
+    content: " ";
+}
+
+/* Ensure space after brackets in citations */
+.text-justify {
+    word-spacing: 0.1em;
 }
 </style>
 
@@ -117,10 +127,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID0">Healy, F. (2024). <i>The Impact of Geometric Nonlinearities on the Behaviour of Floating Wingtips</i> [PhD thesis]. Univeristy of Bristol.</span></div>
+<div class="text-justify"><span id="RID0">[1] F. Healy, “The Impact of Geometric Nonlinearities on the Behaviour of Floating Wingtips,” PhD thesis, Univeristy of Bristol, 2024. doi: 10.13140/RG.2.2.17411.27689.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID0">Healy, F. (2024). <i>The Impact of Geometric Nonlinearities on the Behaviour of Floating Wingtips</i> [PhD thesis]. Univeristy of Bristol.</span></div> -->
+<!-- <span id="RID0">[1]F. Healy, “The Impact of Geometric Nonlinearities on the Behaviour of Floating Wingtips,” PhD thesis, Univeristy of Bristol, 2024. doi: 10.13140/RG.2.2.17411.27689.</span></div> -->
 
 
 
@@ -137,6 +147,8 @@ pre{
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID0()">BIB</button>
 
 
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID0()">ABSTRACT</button>
+
 
 
 <div id="aRID0" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
@@ -152,7 +164,7 @@ pre{
 
 
 <div id="bRID0" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Recent studies have considered using flared folding wingtips (FFWTs) to enable aircraft designs with higher aspect ratios, lowering the induced drag whilst reducing gust loading and meeting airport operational requirements. However, most studies have relied on the linear assumptions inherent in preliminary aircraft design despite the presence of large wingtip rotations. Such large deformations are analogous to those seen in the modelling of highly flexible wings and can introduce geometric and aerodynamic nonlinearities that significantly affect the system’s overall behaviour. This thesis uses low-order nonlinear numerical models to investigate how geometric nonlinearities (due to large wingtip rotations) affect the static and dynamic behaviour of aeroelastic systems incorporating FFWTs. It is shown that the geometrically nonlinear deformation of the wingtip at its equilibrium position can significantly alter the system’s aerodynamic stiffness and flutter speed when compared to purely linear analysis techniques. It is also shown how using an additional control surface to change a wingtip’s equilibrium position in flight can augment the flutter speed of the aircraft. These findings are validated using a series of wind tunnel experiments. Subsequent numerical investigations reveal that geometric nonlinearities can trigger supercritical limit-cycle oscillations beyond the linear flutter boundary, limit an aircraft’s sideslip angle by introducing bistable regions, and alter an aircraft’s roll authority. In all these studies, a strong correlation is seen between further experimental investigations and results obtained from nonlinear low-order numerical models, ensuring the validity of the resulting conclusions, which provide novel insights into the physical mechanisms driving the observed behaviour. This thesis reveals that for aircraft incorporating FFWTs, the large rotation of the wingtips introduces geometric nonlinearities that significantly impact the aircraft’s aeroelastic response. Therefore, it is crucial to consider these geometric nonlinearities early in the design process to accurately predict an aircraft’s aeroelastic behaviour.</pre>
 </div>
 
 <script>
@@ -174,11 +186,6 @@ function toggleAbstractRID0(parameter) {
 }
 </script>
 </li></ol>
-</div>
-
-<div class="jumbotron">
-  <h3 id="preprints">Preprints</h3>
-  <ol class="bibliography" reversed="reversed"></ol>
 </div>
 
 <div class="jumbotron">
@@ -204,10 +211,95 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID190">Healy, F., Cheung, R., Rezgui, D., Cooper, J., Wilson, T., &amp; Castrichini, A. (2023). Experimental and Numerical Nonlinear Stability Analysis of Wings Incorporating Flared Folding Wingtips [Journal Article]. <i>Journal of Aircraft</i>, 1–15.</span></div>
+<div class="text-justify"><span id="RID406">[1] H. Gu <i>et al.</i>, “Aeroelastic Scaling of a High-Aspect-Ratio Wing Incorporating a Semi-Aeroelastic Hinge,” <i>AIAA Journal</i>, vol. 62, no. 8, pp. 2996–3008, 2024, doi: 10.2514/1.J063646.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID190">Healy, F., Cheung, R., Rezgui, D., Cooper, J., Wilson, T., &amp; Castrichini, A. (2023). Experimental and Numerical Nonlinear Stability Analysis of Wings Incorporating Flared Folding Wingtips [Journal Article]. <i>Journal of Aircraft</i>, 1–15.</span></div> -->
+<!-- <span id="RID406">[1]H. Gu <i>et al.</i>, “Aeroelastic Scaling of a High-Aspect-Ratio Wing Incorporating a Semi-Aeroelastic Hinge,” <i>AIAA Journal</i>, vol. 62, no. 8, pp. 2996–3008, 2024, doi: 10.2514/1.J063646.</span></div> -->
+
+
+
+
+
+
+
+
+<a href="http://doi.org/10.2514/1.J063646" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID406()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID406()">ABSTRACT</button>
+
+
+
+<div id="aRID406" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@article{RID406,
+  author = {Gu, Huaiyuan and Healy, Fintan and Constantin, Lucian and Rezgui, Djamel and Lowenberg, Mark and Cooper, Jonathan E. and Wilson, Thomas and Castrichini, Andrea},
+  title = {Aeroelastic Scaling of a High-Aspect-Ratio Wing Incorporating a Semi-Aeroelastic Hinge},
+  journal = {AIAA Journal},
+  volume = {62},
+  number = {8},
+  pages = {2996-3008},
+  issn = {0001-1452},
+  doi = {10.2514/1.J063646},
+  year = {2024},
+  type = {Journal Article}
+}
+</pre>
+</div>
+
+
+<div id="bRID406" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>There has been a growing interest in utilizing flared folding wingtips as an in-flight load alleviation device to enable increased wing spans that meet airport gate limits but with little increase in wing weight. The semi-aeroelastic hinge (SAH) concept is implemented in high-aspect-ratio wings to enable wingtips to be released during severe load cases such as maneuvers and gusts to alleviate the bending moments while maintaining optimum aerodynamic shape for the rest of the flight. In this paper, scaling methods for wings incorporating the SAH are explored, allowing for the development of equivalent scaled unmanned aerial vehicles or wind tunnel models with similar aeroelastic behavior as full-size aircraft. Three scaling approaches are considered in this study, namely, Iso-Froude, Iso-Frequency, and Iso-Strain, where a set of governing nondimensional quantities and scaling factors are determined. Despite the significant nonlinearities resulting from large wingtip fold angles, it is shown that a linear scaling approach can be appropriate for such a wing configuration. Furthermore, the aeroelastic properties of each scaled model are compared to those of the full-scale model, where the best match was obtained from the Iso-Strain model, although it is challenging to meet the required operational conditions.</pre>
+</div>
+
+<script>
+function toggleBibtexRID406(parameter) {
+    var x= document.getElementById('aRID406');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID406(parameter) {
+    var x= document.getElementById('bRID406');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID190">[2] F. Healy, R. Cheung, D. Rezgui, J. Cooper, T. Wilson, and A. Castrichini, “Experimental and Numerical Nonlinear Stability Analysis of Wings Incorporating Flared Folding Wingtips,” <i>Journal of Aircraft</i>, pp. 1–15, 2023, doi: 10.2514/1.C037167.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID190">[2]F. Healy, R. Cheung, D. Rezgui, J. Cooper, T. Wilson, and A. Castrichini, “Experimental and Numerical Nonlinear Stability Analysis of Wings Incorporating Flared Folding Wingtips,” <i>Journal of Aircraft</i>, pp. 1–15, 2023, doi: 10.2514/1.C037167.</span></div> -->
 
 
 
@@ -223,6 +315,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID190()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID190()">ABSTRACT</button>
 
 
 
@@ -242,7 +336,7 @@ pre{
 
 
 <div id="bRID190" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Recent studies have considered the use of wings incorporating flared folding wingtips (FFWTs) to enable higher aspect ratios (reducing overall induced drag) while also reducing gust loading and meeting airport operational requirements. This paper presents the first experimental research into the nonlinear dynamic behavior of a wing incorporating an FFWT. Wind-tunnel tests were conducted at a range of velocities below and beyond the linear flutter boundary. The experimental findings are compared with results obtained from continuation and bifurcation analyses on a representative low-fidelity numerical model. The results show that beyond the linear flutter boundary, stable limit cycle oscillations form, which is dependent on the flare angle, are bounded by either geometric or aerodynamic nonlinearities. Also presented is the effect of a wingtip trim tab on the stability boundary of a wing incorporating FFWTs. It is found that the tab angle can significantly alter the stability boundary of the system, indicating that the choice of camber is an important parameter when considering the stability boundary of FFWTs and that a moveable control surface on an FFWT could be used ?in flight? to extend the stability boundary of an aircraft.</pre>
 </div>
 
 <script>
@@ -285,10 +379,95 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID153">Gu, H., Healy, F., Rezgui, D., &amp; Cooper, J. (2022). Sizing of High-Aspect-Ratio Wings with Folding Wingtips [Journal Article]. <i>Journal of Aircraft</i>, 1–15.</span></div>
+<div class="text-justify"><span id="RID409">[3] F. Healy <i>et al.</i>, “On the Dynamic Behavior of Wings Incorporating Floating Wingtip Fuel Tanks,” <i>Journal of Aircraft</i>, vol. 61, no. 3, pp. 785–800, 2023, doi: 10.2514/1.C037519.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID153">Gu, H., Healy, F., Rezgui, D., &amp; Cooper, J. (2022). Sizing of High-Aspect-Ratio Wings with Folding Wingtips [Journal Article]. <i>Journal of Aircraft</i>, 1–15.</span></div> -->
+<!-- <span id="RID409">[3]F. Healy <i>et al.</i>, “On the Dynamic Behavior of Wings Incorporating Floating Wingtip Fuel Tanks,” <i>Journal of Aircraft</i>, vol. 61, no. 3, pp. 785–800, 2023, doi: 10.2514/1.C037519.</span></div> -->
+
+
+
+
+
+
+
+
+<a href="http://doi.org/10.2514/1.C037519" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID409()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID409()">ABSTRACT</button>
+
+
+
+<div id="aRID409" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@article{RID409,
+  author = {Healy, Fintan and Courcy, Joe De and Gu, Huaiyuan and Rezgui, Djamel and Cooper, Jonathan and Wilson, Thomas and Castrichini, Andrea},
+  title = {On the Dynamic Behavior of Wings Incorporating Floating Wingtip Fuel Tanks},
+  journal = {Journal of Aircraft},
+  volume = {61},
+  number = {3},
+  pages = {785-800},
+  issn = {0021-8669},
+  doi = {10.2514/1.C037519},
+  year = {2023},
+  type = {Journal Article}
+}
+</pre>
+</div>
+
+
+<div id="bRID409" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Recent studies have shown that semi-aeroelastic hinge devices can enable larger aircraft wingspans. Such a device would be folded on the ground to meet airport width restrictions, locked during cruise for optimal aerodynamic performance, and released during maneuvers to alleviate flight loads. In contrast, this paper uses a wind tunnel experiment to study the aeroelastic behavior of floating wingtip fuel tanks. This device consists of a freely floating wingtip with an additional mass attached in the form of a liquid-filled fuel tank. The static aeroelastic results show that altering the fuel tank?s filling level and position allows the wingtip to float at an optimal angle for aerodynamic efficiency across various angles of attack and fuel masses. Additionally, this paper shows that, with careful selection of the mass distribution of the wingtip, dynamic load alleviation comparable to the semi-aeroelastic hinge concept can be achieved during turbulence and one-minus-cosine encounters. Furthermore, the effect of fluid motion is shown to reduce incremental loads during random turbulence encounters by up to 10%; however, it has a negligible impact on the response to one-minus-cosine encounters. Such results are also confirmed by a numerical model incorporating a simple reduced-order fluid sloshing model.</pre>
+</div>
+
+<script>
+function toggleBibtexRID409(parameter) {
+    var x= document.getElementById('aRID409');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID409(parameter) {
+    var x= document.getElementById('bRID409');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID153">[4] H. Gu, F. Healy, D. Rezgui, and J. Cooper, “Sizing of High-Aspect-Ratio Wings with Folding Wingtips,” <i>Journal of Aircraft</i>, pp. 1–15, 2022, doi: 10.2514/1.C036908.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID153">[4]H. Gu, F. Healy, D. Rezgui, and J. Cooper, “Sizing of High-Aspect-Ratio Wings with Folding Wingtips,” <i>Journal of Aircraft</i>, pp. 1–15, 2022, doi: 10.2514/1.C036908.</span></div> -->
 
 
 
@@ -318,15 +497,14 @@ pre{
   issn = {0021-8669},
   doi = {10.2514/1.C036908},
   year = {2022},
-  type = {Journal Article},
-  file = {gu2022_folding_wings.pdf}
+  type = {Journal Article}
 }
 </pre>
 </div>
 
 
 <div id="bRID153" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>This paper presents a comprehensive study on the sizing methodology for high-aspect-ratio wings incorporating folding wingtip devices. The research explores the structural and aerodynamic considerations necessary for optimizing wing design with these innovative features. Results demonstrate significant improvements in aircraft performance while maintaining structural integrity and operational safety.</pre>
+<pre>High-aspect-ratio wings are of particular interest to modern aircraft design due to the inherent reduction in induced drag that they provide. However, such wing configurations often come with problems such as increased structural weight and oversized wingspans for existing airport facilities. Unlike conventional folding wingtips, as used on the 777-X, this paper demonstrates the use of semi-aeroelastic hinge devices that enable aircraft incorporating high-aspect-ratio wings not only to fit into airport gates, but also to alleviate aerodynamic loads by allowing floating wingtips to be used in-flight. This study establishes a preliminary design process for such a wing configuration and undertakes a comprehensive sizing process to investigate the impact of the device on wing weight and aircraft performance. For the cases considered, a reduction in wing weight of approximately 25% can be achieved by utilizing the semi-aeroelastic hinge, which can lead to more than 5% improvement in aircraft range.</pre>
 </div>
 
 <script>
@@ -369,10 +547,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID151">Healy, F., Cheung, R., Rezgui, D., Cooper, J., Wilson, T., &amp; Castrichini, A. (2022). On the Effect of Geometric Nonlinearity on the Dynamics of Flared Folding Wingtips [Journal Article]. <i>Journal of Aircraft</i>, 1–14.</span></div>
+<div class="text-justify"><span id="RID151">[5] F. Healy, R. Cheung, D. Rezgui, J. Cooper, T. Wilson, and A. Castrichini, “On the Effect of Geometric Nonlinearity on the Dynamics of Flared Folding Wingtips,” <i>Journal of Aircraft</i>, pp. 1–14, 2022, doi: 10.2514/1.C036877.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID151">Healy, F., Cheung, R., Rezgui, D., Cooper, J., Wilson, T., &amp; Castrichini, A. (2022). On the Effect of Geometric Nonlinearity on the Dynamics of Flared Folding Wingtips [Journal Article]. <i>Journal of Aircraft</i>, 1–14.</span></div> -->
+<!-- <span id="RID151">[5]F. Healy, R. Cheung, D. Rezgui, J. Cooper, T. Wilson, and A. Castrichini, “On the Effect of Geometric Nonlinearity on the Dynamics of Flared Folding Wingtips,” <i>Journal of Aircraft</i>, pp. 1–14, 2022, doi: 10.2514/1.C036877.</span></div> -->
 
 
 
@@ -388,6 +566,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID151()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID151()">ABSTRACT</button>
 
 
 
@@ -407,7 +587,7 @@ pre{
 
 
 <div id="bRID151" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Recent studies have considered the use of flared folding wingtips (FFWTs) to enable higher aspect ratios?reducing overall induced drag?while reducing gust loading and meeting airport operational requirements. The majority of these analyses have employed linear assumptions despite the presence of large wingtip deformations. In this paper the effect of geometric nonlinearities introduced by an FFWT on the static and dynamic aeroelastic response of a wing is assessed. A geometrically exact expression was formulated to describe the change in the local angle of attack in the chordwise direction across all fold angles. This expression highlighted that the aerodynamic stiffness of an FFWT and, therefore, quantities such as the linear flutter speed are a function of the fold angle and, hence, the attitude of the wing. This effect was verified using both a wind tunnel model of a flexible semispan wing and a numerical model utilizing MSC Nastran, which linearized the model about the equilibrium position of the wingtip. These experiments showed that the geometric nonlinearities introduced due to the large deformations of FFWTs can significantly affect the dynamics of the system, with flutter speeds varying by over 28%, simply by changing the angle of attack of the model.</pre>
 </div>
 
 <script>
@@ -450,10 +630,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID124">Healy, F., Cheung, R., Neofet, T., Lowenberg, M., Rezgui, D., Cooper, J., Castrichini, A., &amp; Wilson, T. (2021). Folding Wingtips for Improved Roll Performance [Journal Article]. <i>Journal of Aircraft</i>, 1–14.</span></div>
+<div class="text-justify"><span id="RID124">[6] F. Healy <i>et al.</i>, “Folding Wingtips for Improved Roll Performance,” <i>Journal of Aircraft</i>, pp. 1–14, 2021, doi: 10.2514/1.C036372.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID124">Healy, F., Cheung, R., Neofet, T., Lowenberg, M., Rezgui, D., Cooper, J., Castrichini, A., &amp; Wilson, T. (2021). Folding Wingtips for Improved Roll Performance [Journal Article]. <i>Journal of Aircraft</i>, 1–14.</span></div> -->
+<!-- <span id="RID124">[6]F. Healy <i>et al.</i>, “Folding Wingtips for Improved Roll Performance,” <i>Journal of Aircraft</i>, pp. 1–14, 2021, doi: 10.2514/1.C036372.</span></div> -->
 
 
 
@@ -469,6 +649,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID124()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID124()">ABSTRACT</button>
 
 
 
@@ -487,7 +669,7 @@ pre{
 
 
 <div id="bRID124" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Future aircraft designs look set to use longer wingspans to increase the aspect ratio and therefore overall aerodynamic efficiency of the airframe. Such larger wingspans also reduce roll rates and require increased control surface area to achieve the roll maneuver requirements for certification. In this work, the effect of using flared folding wingtips (FFWTs) on the roll performance of simple aircraft wings is investigated numerically and experimentally. A unique rolling rig is designed, manufactured, and tested, with a series of steady roll and transient tests performed for different wingspans, with and without folding wingtips. It is shown that the use of FFWTs on aircraft wings can enable improved aerodynamic performance due to the increased span while also significantly reducing the aerodynamic damping due to roll, such that the roll performance of a wing incorporating FFWTs is comparable to that of one without the additional span.</pre>
 </div>
 
 <script>
@@ -534,10 +716,93 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID403">Sacchi, F., Healy, F., De Almeida, G., Gu, H., Rezgui, D., &amp; Cooper, J. E. (2025). Effect of Wing Flexibility and Bending-Torsion Coupling on Roll Behavior of Wings Incorporating Flared Folding Wingtips. <i>Aiaa Scitech 2025 Forum</i>. https://doi.org/10.2514/6.2025-0713</span></div>
+<div class="text-justify"><span id="RID405">[1] A. Pontillo <i>et al.</i>, “Experimental Testing and Analysis of a Very Flexible Wing Model,” 2025. doi: 10.2514/6.2025-0424.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID403">Sacchi, F., Healy, F., De Almeida, G., Gu, H., Rezgui, D., &amp; Cooper, J. E. (2025). Effect of Wing Flexibility and Bending-Torsion Coupling on Roll Behavior of Wings Incorporating Flared Folding Wingtips. <i>Aiaa Scitech 2025 Forum</i>. https://doi.org/10.2514/6.2025-0713</span></div> -->
+<!-- <span id="RID405">[1]A. Pontillo <i>et al.</i>, “Experimental Testing and Analysis of a Very Flexible Wing Model,” 2025. doi: 10.2514/6.2025-0424.</span></div> -->
+
+
+
+
+
+
+
+
+<a href="http://doi.org/10.2514/6.2025-0424" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID405()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID405()">ABSTRACT</button>
+
+
+
+<div id="aRID405" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@conference{RID405,
+  author = {Pontillo, Alessandro and Healy, Fintan and Gu, Huaiyuan and Lowenberg, Mark H. and Jones, Dorian and Cooper, Jonathan E. and Coetzee, Etienne and Wilson, Thomas and Stevenson, Jonathan P.},
+  title = {Experimental Testing and Analysis of a Very Flexible Wing Model},
+  organization = {AIAA SCITECH 2025 Forum},
+  doi = {10.2514/6.2025-0424},
+  year = {2025},
+  type = {Conference Paper}
+}
+</pre>
+</div>
+
+
+<div id="bRID405" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>The ongoing quest for more efficient aircraft operations has led to several high aspect ratio wing concepts that may take flight in the next decade. A wing tends to become more flexible as the aspect ratio is increased, which results in the interaction between the wing structural response and aircraft flight dynamics, with an increased likelihood of nonlinear response of the wing structure and aerodynamics as well as an increase in the complexity of the aircraft systems that must be designed in the nonlinear domain. In this context, developing nonlinear numerical tools is crucial to predict the behaviour of this new generation of aircraft. This paper discusses the numerical and experimental work on a 2.4 m very flexible high aspect ratio wing, where the results of these tests can be used to validate nonlinear aeroelastic software. The wing was designed to exhibit specific nonlinear dynamic behaviour and does not represent any wing that would be used on an aircraft. Following a brief description of the experimental test model, three different numerical models are presented: two low-order aeroelastic models, one based on the multibody toolbox Simscape, one based on a low-order geometrical exact beam formulation and one model based on the industrial standard MSC Nastran software. The low-order models were used to carry out numerical continuation and bifurcation analysis to predict the unstable nonlinear behaviour of the wing and the onset of limit cycle oscillations. Ground Vibration Tests and static tests were carried out to update the numerical models. The wing model was tested in the Airbus’ low-speed wind tunnel in Filton (UK). Experimental data were processed with the eigensystem realisation algorithm, and the Zimmerman flutter-margin criterion was applied to predict the flutter onset boundary. Results showed that the driving mode for the flutter onset is the first in-plane mode. The comparison between experimental and numerical data shows the ability of low-order models to capture the nonlinear effects and predict the reduction in the flutter onset speed as the angle of attack of the model is increased.</pre>
+</div>
+
+<script>
+function toggleBibtexRID405(parameter) {
+    var x= document.getElementById('aRID405');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID405(parameter) {
+    var x= document.getElementById('bRID405');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID403">[2] F. Sacchi, F. Healy, G. De Almeida, H. Gu, D. Rezgui, and J. E. Cooper, “Effect of Wing Flexibility and Bending-Torsion Coupling on Roll Behavior of Wings Incorporating Flared Folding Wingtips,” 2025. doi: doi:10.2514/6.2025-0713
+10.2514/6.2025-0713.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID403">[2]F. Sacchi, F. Healy, G. De Almeida, H. Gu, D. Rezgui, and J. E. Cooper, “Effect of Wing Flexibility and Bending-Torsion Coupling on Roll Behavior of Wings Incorporating Flared Folding Wingtips,” 2025. doi: doi:10.2514/6.2025-0713
+10.2514/6.2025-0713.</span></div> -->
 
 
 
@@ -555,27 +820,27 @@ pre{
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID403()">BIB</button>
 
 
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID403()">ABSTRACT</button>
+
 
 
 <div id="aRID403" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@conference{RID403,
   author = {Sacchi, Francesco and Healy, Fintan and De Almeida, Gabriel and Gu, Huaiyuan and Rezgui, Djamel and Cooper, Jonathan E.},
   title = {Effect of Wing Flexibility and Bending-Torsion Coupling on Roll Behavior of Wings Incorporating Flared Folding Wingtips},
-  booktitle = {Aiaa Scitech 2025 Forum},
-  series = {Aiaa Scitech Forum},
-  publisher = {American Institute of Aeronautics and Astronautics},
+  organization = {AIAA SCITECH 2025 Forum},
   doi = {doi:10.2514/6.2025-0713
   10.2514/6.2025-0713},
   url = {https://doi.org/10.2514/6.2025-0713},
   year = {2025},
-  type = {Chap.}
+  type = {Conference Paper}
 }
 </pre>
 </div>
 
 
 <div id="bRID403" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Flared FoldingWingtips (FFWTs) on high aspect ratio wings have been shown to achieve airport taxiway and gate width restrictions whilst improving aerodynamic performance without any substantial gain in structural weight. Previous numerical and experimental studies on relatively stiff wings have shown that including a FFWT improved aircraft roll performance; however, subsequent numerical studies on a very flexible transonic aircraft model showed that the FFWTs degraded roll performance. This work considers why these two differing conclusions were achieved and finds that it is not only the flexibility of the wings and dynamic pressure that must be considered but also, most importantly, the coupling between bending and torsion. Several numerical simulations with varying bending-torsion coupling, wing sweep and airspeed are performed to reinforce the findings.</pre>
 </div>
 
 <script>
@@ -618,27 +883,194 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID367">Healy, F., Gu, H., Rezgui, D., &amp; Cooper, J. (2024). <i>Conceptual Design of Hydrogen-Powered Aircraft: High Aspect Ratio Wings and Floating Wingtips</i> [Conference Paper]. https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0386_paper.pdf</span></div>
+<div class="text-justify"><span id="RID404">[3] H. Tang <i>et al.</i>, “Low-Order Modeling of Dynamic Stall and Bifurcation Analysis of Highly Flexible Wing,” 2025. doi: 10.2514/6.2025-3295.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID367">Healy, F., Gu, H., Rezgui, D., &amp; Cooper, J. (2024). <i>Conceptual Design of Hydrogen-Powered Aircraft: High Aspect Ratio Wings and Floating Wingtips</i> [Conference Paper]. https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0386_paper.pdf</span></div> -->
+<!-- <span id="RID404">[3]H. Tang <i>et al.</i>, “Low-Order Modeling of Dynamic Stall and Bifurcation Analysis of Highly Flexible Wing,” 2025. doi: 10.2514/6.2025-3295.</span></div> -->
 
 
 
 
 
 
+
+
+<a href="http://doi.org/10.2514/6.2025-3295" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID404()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID404()">ABSTRACT</button>
+
+
+
+<div id="aRID404" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@conference{RID404,
+  author = {Tang, Hong and Pontillo, Alessandro and Healy, Fintan and Lowenberg, Mark and Jones, Dorian and Cooper, Jonathan and Coetzee, Etienne},
+  title = {Low-Order Modeling of Dynamic Stall and Bifurcation Analysis of Highly Flexible Wing},
+  organization = {AIAA AVIATION FORUM AND ASCEND 2025},
+  doi = {10.2514/6.2025-3295},
+  url = {https://doi.org/10.2514/6.2025-3295},
+  year = {2025},
+  type = {Conference Paper}
+}
+</pre>
+</div>
+
+
+<div id="bRID404" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Highly flexible wings can experience complex aerodynamic phenomena, such as dynamic stall, which induce nonlinear forces and lead to instabilities or limit-cycle oscillations that are challenging to predict and mitigate. A low-order accurate and efficient numerical model is in demand to give near real-time on-site nonlinear aeroelastic prediction during the wind tunnel testing, to help ensure that suitable tests are safely conducted. For this purpose, reducing the states of either the aerodynamic or structural model is extremely important in lowering the computation cost for numerical continuation. This paper explores a low-order modeling approach to analyze dynamic stall and bifurcation behavior in highly flexible wings, with applications in the design and control of next-generation highly efficient air transport. In this paper, the low-order unsteady aerodynamic model is derived by reducing the order of the attached flow portion of the original Beddoes-Leishman model (BLM). The reduced set of governing equations is tailored to retain significant aerodynamic and structural couplings while minimizing computational overhead; the nonlinear beam shape (NBS) formulation is used to model the flexible wing structure. Numerical comparisons for a NACA 0012 airfoil show that the modified BLM with six states is close to matching the original BLM with twelve states when prescribed periodic motion is given. The caveat is that the model is useful in a relatively low-frequency range; however, this is considered to be enough to cover the frequency range of aerodynamic phenomena associated with limit cycle oscillations (LCOs) related to highly flexible wings. The numerical model is expected to quickly identify and predict parameter regimes where stable, unstable, and oscillatory behaviors emerge, enabling a deeper understanding of aerodynamic load variations and structural deformation patterns. To further validate the low-order aerodynamic model, the final version of the paper will incorporate open-sourced experimental data to assess the model’s accuracy and evaluate the capability of the developed numerical tool to predict the nonlinear aeroelastic behavior of the high-aspect-ratio wing. This includes key features such as dynamic stall characteristics and post-stall behavior.</pre>
+</div>
+
+<script>
+function toggleBibtexRID404(parameter) {
+    var x= document.getElementById('aRID404');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID404(parameter) {
+    var x= document.getElementById('bRID404');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID407">[4] H. Gu, F. Healy, D. Rezgui, M. H. Lowenberg, and J. E. Cooper, “Aeroelastic Scaling of a High Aspect Ratio Wing Incorporating Semi Aeroelastic Hinge,” 2024. doi: 10.2514/6.2024-0618.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID407">[4]H. Gu, F. Healy, D. Rezgui, M. H. Lowenberg, and J. E. Cooper, “Aeroelastic Scaling of a High Aspect Ratio Wing Incorporating Semi Aeroelastic Hinge,” 2024. doi: 10.2514/6.2024-0618.</span></div> -->
+
+
+
+
+
+
+
+
+<a href="http://doi.org/10.2514/6.2024-0618" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID407()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID407()">ABSTRACT</button>
+
+
+
+<div id="aRID407" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@conference{RID407,
+  author = {Gu, Huaiyuan and Healy, Fintan and Rezgui, Djamel and Lowenberg, Mark H. and Cooper, Jonathan E.},
+  title = {Aeroelastic Scaling of a High Aspect Ratio Wing Incorporating Semi Aeroelastic Hinge},
+  organization = {AIAA SCITECH 2024 Forum},
+  doi = {10.2514/6.2024-0618},
+  year = {2024},
+  type = {Conference Paper}
+}
+</pre>
+</div>
+
+
+<div id="bRID407" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>There has been a growing interest in utilizing flared folding wingtips as an in-flight load alleviation device to enable increased wing spans that meet airport gate limits but with little increase in wing weight. The semi-aeroelastic hinge (SAH) concept is implemented in high aspect ratio wings to enable wingtips to be released during severe load cases such as manoeuvres and gusts to alleviate the bending moments whilst maintaining optimum aerodynamic shape for the rest of the flight. In this paper, scaling methods for wings incorporating the SAH are explored, allowing for the development of equivalent scaled Unmanned Aerial vehicles (UAVs) or wind tunnel models with similar aeroelastic behaviour as full-size aircraft. Three scaling approaches are considered in this study, namely Iso-Froude, Iso-Frequency and Iso-Strain, where a set of governing non-dimensional quantities and scaling factors are determined. Despite the significant non-linearities resulting from large wingtip fold angles, it is shown that a linear scaling approach can be appropriate for such a wing configuration. Furthermore, the aeroelastic properties of each scaled model are compared to that of the full scale model and a reasonably good agreement is obtained.</pre>
+</div>
+
+<script>
+function toggleBibtexRID407(parameter) {
+    var x= document.getElementById('aRID407');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID407(parameter) {
+    var x= document.getElementById('bRID407');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID367">[5] F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Conceptual Design of Hydrogen-Powered Aircraft: High Aspect Ratio Wings and Floating Wingtips,” Florence, Italy, 2024. Available at: https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0386_paper.pdf</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID367">[5]F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Conceptual Design of Hydrogen-Powered Aircraft: High Aspect Ratio Wings and Floating Wingtips,” Florence, Italy, 2024. Available at: https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0386_paper.pdf</span></div> -->
+
+
+
+
+
+
+
+<a href="https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0386_paper.pdf" target="_blank"><button class="btn btn-info btm-sm">URL</button></a>
 
 
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID367()">BIB</button>
 
 
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID367()">ABSTRACT</button>
+
 
 
 <div id="aRID367" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@conference{RID367,
-  author = {Healy, Fintan; and Gu, Huaiyuan; and Rezgui, Djamel; and Cooper, Jonathan},
+  author = {Healy, Fintan and Gu, Huaiyuan and Rezgui, Djamel and Cooper, Jonathan},
   title = {Conceptual Design of Hydrogen-Powered Aircraft: High Aspect Ratio Wings and Floating Wingtips},
   organization = {34th Congree of the International Council of the Aerospace Sciences},
   address = {Florence, Italy},
@@ -651,7 +1083,7 @@ pre{
 
 
 <div id="bRID367" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Hydrogen-powered aircraft present a promising solution to mitigate the aviation industry’s environmental impact by eliminating in-flight carbon emissions and significantly reducing the production of nitrogen oxides (NOx). This study focuses on the conceptual design of hydrogen-powered aircraft featuring high aspect ratio wings (HARW) and floating wingtips. Using liquid hydrogen (LH2) as a fuel source introduces unique storage and structural design challenges, as the reduced energy density necessitates larger fuel tanks and results in fuel free or ‘dry’ wings. These factors influence the optimal aspect ratio and fuel economy of an aircraft. This paper uses a conceptual sizing algorithm tailored for hydrogen-powered aircraft to examine the potential benefits of incorporating a semi-aeroelastic hinge (SAH) to mitigate loads during gust encounters and manoeuvres. The sizing algorithm uses aeroelastic simulations to estimate the loads during manoeuvres, gust and turbulence encounters. It shows that a SAH can lead to a 20% reduction in wing mass and a 5% improvement in the fuel economy of an aircraft.</pre>
 </div>
 
 <script>
@@ -694,27 +1126,31 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID366">Healy, F., Gu, H., Rezgui, D., &amp; Cooper, J. (2024). <i>Wing Mounted Hydrogen Fuel Tanks: Mitigating the Aeroelastic Penalties of Dry Wing Configurations?</i> [Conference Paper]. https://conf.ifasd2024.nl/ifasd2024-proceedings/proceedings/documents/122.pdf</span></div>
+<div class="text-justify"><span id="RID366">[6] F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Wing Mounted Hydrogen Fuel Tanks: Mitigating the Aeroelastic Penalties of Dry Wing Configurations?,” The Hague, Netherlands, 2024. Available at: https://conf.ifasd2024.nl/ifasd2024-proceedings/proceedings/documents/122.pdf</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID366">Healy, F., Gu, H., Rezgui, D., &amp; Cooper, J. (2024). <i>Wing Mounted Hydrogen Fuel Tanks: Mitigating the Aeroelastic Penalties of Dry Wing Configurations?</i> [Conference Paper]. https://conf.ifasd2024.nl/ifasd2024-proceedings/proceedings/documents/122.pdf</span></div> -->
+<!-- <span id="RID366">[6]F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Wing Mounted Hydrogen Fuel Tanks: Mitigating the Aeroelastic Penalties of Dry Wing Configurations?,” The Hague, Netherlands, 2024. Available at: https://conf.ifasd2024.nl/ifasd2024-proceedings/proceedings/documents/122.pdf</span></div> -->
 
 
 
 
 
 
+
+<a href="https://conf.ifasd2024.nl/ifasd2024-proceedings/proceedings/documents/122.pdf" target="_blank"><button class="btn btn-info btm-sm">URL</button></a>
 
 
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID366()">BIB</button>
 
 
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID366()">ABSTRACT</button>
+
 
 
 <div id="aRID366" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@conference{RID366,
-  author = {Healy, Fintan; and Gu, Huaiyuan; and Rezgui, Djamel; and Cooper, Jonathan},
+  author = {Healy, Fintan and Gu, Huaiyuan and Rezgui, Djamel and Cooper, Jonathan},
   title = {Wing Mounted Hydrogen Fuel Tanks: Mitigating the Aeroelastic Penalties of Dry Wing Configurations?},
   organization = {International Forum on Aeroelasticity and Structural Dynamics},
   address = {The Hague, Netherlands},
@@ -727,7 +1163,7 @@ pre{
 
 
 <div id="bRID366" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>The aviation industry’s desire to mitigate its environmental impact has re-invigorated research into hydrogen-powered aircraft concepts. The transition to liquid hydrogen (LH2) fuel results in large, cryogenic fuel tanks that cannot be accommodated within the wingbox struc ture, leading to fuel-free or ‘dry’ wings. In traditional kerosene-powered configurations fuel stored in the wings provides inertial relief, reducing the loads experienced during flight and, therefore, the required structural mass. Wing-mounted fuel tanks could be used to regain this inertial relief, and this paper investigates the aerodynamic and structural implications of inte grating wing-mounted hydrogen fuel tanks into medium-sized commercial aircraft with high aspect ratio wings. A multidisciplinary conceptual aircraft sizing methodology is used to ex plore the effect of different fuel tank configurations - where LH2 is stored within the fuselage, or in external wing-mounted tanks - on an aircraft’s geometry and performance metrics, such as fuel efficiency. The sizing of the wingbox structure includes the numerical simulation of manoeuvre, gust and turbulence loads using an aeroelastic model. The findings suggest that while wing-mounted tanks offer inertial relief, reducing wing mass by over 20%, the increased parasitic drag from the external fuel tanks outweighs the reduction in lift-induced drag. This conclusion was observed between aspect ratios of 8 and 20, suggesting that permanently at tached wing-mounted fuel tanks are not viable for hydrogen-powered aircraft with high aspect ratio wings.</pre>
 </div>
 
 <script>
@@ -770,10 +1206,252 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID186">Gu, H., Cheung, R. C., Healy, F., Rezgui, D., Lowenberg, M. H., &amp; Cooper, J. E. (2023). <i>Experimental Study of the Impact of Folding Wingtip Devices on Aircraft Flight Mechanics and Handling Qualities</i> [Conference Paper]. https://doi.org/10.2514/6.2023-0402</span></div>
+<div class="text-justify"><span id="RID408">[7] F. Healy, H. Gu, D. Rezgui, and J. E. Cooper, “Nonlinear Stability Analysis of Floating Wingtips with Control Surface Freeplay,” 2024. doi: 10.2514/6.2024-1267.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID186">Gu, H., Cheung, R. C., Healy, F., Rezgui, D., Lowenberg, M. H., &amp; Cooper, J. E. (2023). <i>Experimental Study of the Impact of Folding Wingtip Devices on Aircraft Flight Mechanics and Handling Qualities</i> [Conference Paper]. https://doi.org/10.2514/6.2023-0402</span></div> -->
+<!-- <span id="RID408">[7]F. Healy, H. Gu, D. Rezgui, and J. E. Cooper, “Nonlinear Stability Analysis of Floating Wingtips with Control Surface Freeplay,” 2024. doi: 10.2514/6.2024-1267.</span></div> -->
+
+
+
+
+
+
+
+
+<a href="http://doi.org/10.2514/6.2024-1267" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID408()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID408()">ABSTRACT</button>
+
+
+
+<div id="aRID408" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@conference{RID408,
+  author = {Healy, Fintan and Gu, Huaiyuan and Rezgui, Djamel and Cooper, Jonathan E.},
+  title = {Nonlinear Stability Analysis of Floating Wingtips with Control Surface Freeplay},
+  organization = {AIAA SCITECH 2024 Forum},
+  doi = {10.2514/6.2024-1267},
+  year = {2024},
+  type = {Conference Paper}
+}
+</pre>
+</div>
+
+
+<div id="bRID408" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Flared folding wingtip (FFWT) devices have been shown to enable higher aspect ratios in future aircraft designs while meeting airport width restrictions and reducing the loads experienced by an airframe during gust encounters and manoeuvres. Studies have highlighted that including an additional control surface on the wingtip can augment the performance of such devices. This paper aims to explore the effect of freeplay on this additional control surface and, in particular, will explore how freeplay affects the stability of this nonlinear system. As such, this study presents the results of an experimental study with a semi-span wing incorporating an FFWT with an additional control surface. The results show that freeplay leads to the onset of small limit cycle oscillations (LCOs) well below the linear flutter speed of the original system. The introduction of freeplay is also shown to re-stabilise the model at higher velocities, and these effects are similar across a wide range of freeplay region sizes and flare angles.</pre>
+</div>
+
+<script>
+function toggleBibtexRID408(parameter) {
+    var x= document.getElementById('aRID408');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID408(parameter) {
+    var x= document.getElementById('bRID408');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID412">[8] W. Mansey, F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Active Flutter Suppression and Gust Load Alleviation of Wings Incorporating Floating Wingtips,” The Hague, Netherlands, 2024. Available at: https://conf.ifasd2024.nl/proceedings/display_manuscript/125.htm</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID412">[8]W. Mansey, F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Active Flutter Suppression and Gust Load Alleviation of Wings Incorporating Floating Wingtips,” The Hague, Netherlands, 2024. Available at: https://conf.ifasd2024.nl/proceedings/display_manuscript/125.htm</span></div> -->
+
+
+
+
+
+
+
+<a href="https://conf.ifasd2024.nl/proceedings/display_manuscript/125.htm" target="_blank"><button class="btn btn-info btm-sm">URL</button></a>
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID412()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID412()">ABSTRACT</button>
+
+
+
+<div id="aRID412" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@conference{RID412,
+  author = {Mansey, William and Healy, Fintan and Gu, Huaiyuan and Rezgui, Djamel and Cooper, Jonathan},
+  title = {Active Flutter Suppression and Gust Load Alleviation of Wings Incorporating Floating Wingtips},
+  organization = {International Forum on Aeroelasticity and Structural Dynamics},
+  address = {The Hague, Netherlands},
+  url = {https://conf.ifasd2024.nl/proceedings/display_manuscript/125.htm},
+  year = {2024},
+  type = {Conference Paper}
+}
+</pre>
+</div>
+
+
+<div id="bRID412" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>In this paper, a two-degree-of-freedom mathematical model was used to analyse active flutter suppression on wings featuring flared folding wingtips, via an additional control surface on the wingtip. The active control system took the wingtip fold angle as the input parameter. Using a proportional controller gain, the flutter onset speed could be increased by 25%, and a proportional controller can also be used to recreate the effect of a flare angle. Using a derivative controller, it was found that flutter could be prevented across all reasonable airspeeds. Both benefits could be realised without a significant change in the gust load alleviation provided by the flared folding wingtip. However, the control surface angular rates required to achieve flutter suppression were very high under certain conditions. If these control surface velocities are limited to realistic values, then the controller can no longer suppress the growth of instabilities for larger gust amplitudes.</pre>
+</div>
+
+<script>
+function toggleBibtexRID412(parameter) {
+    var x= document.getElementById('aRID412');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID412(parameter) {
+    var x= document.getElementById('bRID412');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID410">[9] H. Gu <i>et al.</i>, “Transient Release and Lateral Gust Behavior of Aircraft Incorporating Flared Folding Wingtips,” 2023. doi: 10.2514/6.2023-2568.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID410">[9]H. Gu <i>et al.</i>, “Transient Release and Lateral Gust Behavior of Aircraft Incorporating Flared Folding Wingtips,” 2023. doi: 10.2514/6.2023-2568.</span></div> -->
+
+
+
+
+
+
+
+
+<a href="http://doi.org/10.2514/6.2023-2568" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+
+
+
+<!-- Always show BibTeX button for all entries -->
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRID410()">BIB</button>
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID410()">ABSTRACT</button>
+
+
+
+<div id="aRID410" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@conference{RID410,
+  author = {Gu, Huaiyuan and Cheung, Ronald C. and Healy, Fintan and Goodarzi Ardakani, Vahid and Abdo, Saber and Rezgui, Djamel and Lowenberg, Mark H. and Cooper, Jonathan E.},
+  title = {Transient Release and Lateral Gust Behavior of Aircraft Incorporating Flared Folding Wingtips},
+  organization = {AIAA SCITECH 2023 Forum},
+  doi = {10.2514/6.2023-2568},
+  year = {2023},
+  type = {Conference Paper}
+}
+</pre>
+</div>
+
+
+<div id="bRID410" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>There has been much interest in the development of advanced wing solutions to improve the fuel efficiency of aircraft. High aspect ratio wings incorporating flared folding wingtips (FFWT) allows aircraft with large wingspan to meet the airport gate restrictions and has shown encouraging results in load alleviation and roll performance. This paper aims to study the response of such a wing configuration to discrete lateral gusts with various lengths. A comparison was made between the locked and free FFWT configurations, and the results show that the FFWT provides improved performance through alleviation of the wing deflections, whereas little effect was seen on the overall flight mechanics. Furthermore, transient response of the hinge release was modelled, where the responses were compared between the wingtips with various mass and flare angles released at different flight points.</pre>
+</div>
+
+<script>
+function toggleBibtexRID410(parameter) {
+    var x= document.getElementById('aRID410');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRID410(parameter) {
+    var x= document.getElementById('bRID410');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RID186">[10] H. Gu, R. C. Cheung, F. Healy, D. Rezgui, M. H. Lowenberg, and J. E. Cooper, “Experimental Study of the Impact of Folding Wingtip Devices on Aircraft Flight Mechanics and Handling Qualities,” National Harbor, Maryland, USA, 2023. doi: 10.2514/6.2023-0402.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RID186">[10]H. Gu, R. C. Cheung, F. Healy, D. Rezgui, M. H. Lowenberg, and J. E. Cooper, “Experimental Study of the Impact of Folding Wingtip Devices on Aircraft Flight Mechanics and Handling Qualities,” National Harbor, Maryland, USA, 2023. doi: 10.2514/6.2023-0402.</span></div> -->
 
 
 
@@ -803,15 +1481,14 @@ pre{
   doi = {10.2514/6.2023-0402},
   url = {https://doi.org/10.2514/6.2023-0402},
   year = {2023},
-  type = {Conference Paper},
-  file = {gu2023_experimental_study.pdf}
+  type = {Conference Paper}
 }
 </pre>
 </div>
 
 
 <div id="bRID186" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>This experimental investigation examines the effects of folding wingtip devices on aircraft flight dynamics and pilot handling characteristics. Wind tunnel tests and flight simulations reveal the complex interactions between aerodynamic performance and control authority when implementing these morphing wing technologies.</pre>
+<pre>Resent advances in the semi-aeroelastic hinge (SAH) concept utilizes the folding wingtip as a passive load alleviation device, which significantly reduces the aerodynamic loads during manoeuvre and gust, leading to an improved structure efficiency and aircraft performance. This paper experimentally investigates the effect of implementing such device on the flight mechanics and flight handling quality. Wind tunnel tests are conducted with an aircraft model incorporating folding wingtips, where the aerodynamic derivatives of the aircraft are measured for various hinge configurations. A 5 degree of freedom (DoF) rig is implemented in the test which allows the model to heave, pitch, roll, yaw and sway to replicate flying conditions. The pitch motion is excited by applying the elevator input, where the frequency response function (FRF), short-period damping and frequency are determined. Furthermore, the gust response is measured for the model trimmed under a constant wind speed, in which a significant reduction in the gust loads is achieved with the folding wingtip device.</pre>
 </div>
 
 <script>
@@ -854,10 +1531,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID295">Gu, H., Healy, F., Rezgui, D., Lowenberg, M., &amp; Cooper, J. (2023). <i>Flight Dynamics of Aircraft Incorporating a Semi-Aeroelastic Hinge</i> [Conference Paper].</span></div>
+<div class="text-justify"><span id="RID295">[11] H. Gu, F. Healy, D. Rezgui, M. Lowenberg, and J. Cooper, “Flight Dynamics of Aircraft Incorporating a Semi-Aeroelastic Hinge,” London, UK, 2023.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID295">Gu, H., Healy, F., Rezgui, D., Lowenberg, M., &amp; Cooper, J. (2023). <i>Flight Dynamics of Aircraft Incorporating a Semi-Aeroelastic Hinge</i> [Conference Paper].</span></div> -->
+<!-- <span id="RID295">[11]H. Gu, F. Healy, D. Rezgui, M. Lowenberg, and J. Cooper, “Flight Dynamics of Aircraft Incorporating a Semi-Aeroelastic Hinge,” London, UK, 2023.</span></div> -->
 
 
 
@@ -929,10 +1606,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID92">Healy, F., De Courcy, J. J., Gu, H., Rezgui, D., &amp; Cooper, J. E. (2023). <i>Experimental Effect of Liquid Sloshing on the Dynamic Behaviour of Flared Folding Wingtips</i> [Conference Paper]. https://doi.org/10.2514/6.2023-2569</span></div>
+<div class="text-justify"><span id="RID92">[12] F. Healy, J. J. De Courcy, H. Gu, D. Rezgui, and J. E. Cooper, “Experimental Effect of Liquid Sloshing on the Dynamic Behaviour of Flared Folding Wingtips,” 2023. doi: 10.2514/6.2023-2569.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID92">Healy, F., De Courcy, J. J., Gu, H., Rezgui, D., &amp; Cooper, J. E. (2023). <i>Experimental Effect of Liquid Sloshing on the Dynamic Behaviour of Flared Folding Wingtips</i> [Conference Paper]. https://doi.org/10.2514/6.2023-2569</span></div> -->
+<!-- <span id="RID92">[12]F. Healy, J. J. De Courcy, H. Gu, D. Rezgui, and J. E. Cooper, “Experimental Effect of Liquid Sloshing on the Dynamic Behaviour of Flared Folding Wingtips,” 2023. doi: 10.2514/6.2023-2569.</span></div> -->
 
 
 
@@ -948,6 +1625,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID92()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID92()">ABSTRACT</button>
 
 
 
@@ -966,7 +1645,7 @@ pre{
 
 
 <div id="bRID92" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>A wind tunnel experiment is presented that studies the static and dynamic aeroelastic behaviour of a “floating wingtip fuel tank". This device consists of a ’freely floating’ wingtip with an additional mass attached, in the form of a liquid-filled fuel tank, to ensure an optimal lift distribution during cruise, whilst also potentially acting as a passive load alleviation device. The static aeroelastic results show that by altering the fuel tank filling level, the wingtip can float at an optimal angle for aerodynamic efficiency across a range of angles of attack. Furthermore, by altering the position of the fuel tank it is shown that the maximum fuel load can be increased whilst maintaining the optimal equilibrium angle of the wingtip. Regarding gust load alleviation, it is shown that with careful selection of the centre of mass of the wingtip, load alleviation can be achieved that is comparable to that of a wingtip without a fuel tank. Furthermore, the effect of fluid motion is shown to have a negligible effect on the response to one-minus-cosine encounters. However, reductions of up to 10% in RMS root bending moment are seen during random turbulence encounters. Such results are also confirmed by a numerical model incorporating a simple reduced order ‘fluid sloshing? model. Overall, the floating wingtip fuel tank is shown to be a viable concept, which could enable longer wingspans whilst increasing the fuel capacity of an aircraft.</pre>
 </div>
 
 <script>
@@ -1009,10 +1688,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID191">Healy, F., Rezgui, D., &amp; Cooper, J. E. (2023). <i>Experimental Effect of Sideslip Angle on the Dynamic Behaviour of Flared Folding Wingtips</i> [Conference Paper]. https://doi.org/10.2514/6.2023-0376</span></div>
+<div class="text-justify"><span id="RID191">[13] F. Healy, D. Rezgui, and J. E. Cooper, “Experimental Effect of Sideslip Angle on the Dynamic Behaviour of Flared Folding Wingtips,” 2023. doi: 10.2514/6.2023-0376.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID191">Healy, F., Rezgui, D., &amp; Cooper, J. E. (2023). <i>Experimental Effect of Sideslip Angle on the Dynamic Behaviour of Flared Folding Wingtips</i> [Conference Paper]. https://doi.org/10.2514/6.2023-0376</span></div> -->
+<!-- <span id="RID191">[13]F. Healy, D. Rezgui, and J. E. Cooper, “Experimental Effect of Sideslip Angle on the Dynamic Behaviour of Flared Folding Wingtips,” 2023. doi: 10.2514/6.2023-0376.</span></div> -->
 
 
 
@@ -1028,6 +1707,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID191()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID191()">ABSTRACT</button>
 
 
 
@@ -1046,7 +1727,7 @@ pre{
 
 
 <div id="bRID191" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>A concept of growing interest in recent years is the Flared Folding Wingtip (FFWT), which can be used in-flight to reduce airframe loading due to gust encounters and augment the handling qualities of an aircraft. The performance of an FFWT is affected by the relative angle between the built-in hinge angle and the flow direction. Therefore, a critical concern is the behaviour of such a device at non-zero sideslip angles, such as experienced by aircraft in crosswind landings. In this paper, a specially designed wind tunnel model capable of large wingtip rotations, and a geometrically nonlinear numerical model, are utilised to explore how sideslip angle affects both the static and dynamic behaviour of such a system. It is shown that stable equilibrium positions exist up to and beyond a fold angle of 90 degrees, even when the effective flare angle is zero or switches sign. Additionally, to accurately capture the variation in the frequency of the wingtip with sideslip angle, it is shown factors such as the change in sweep angle of the wing must be accounted for. Furthermore, it is shown that these changes in frequency with sideslip angle can lead to a reduction in the flutter speed, but do not have a significant impact on the gust load alleviation of wings incorporating FFWTs, when exposed to one-minus-cosine gust encounters.</pre>
 </div>
 
 <script>
@@ -1089,10 +1770,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID132">Blunt, W., Healy, F., Cheung, R., Lowenberg, M., &amp; Cooper, J. (2022). <i>Trailing Edge Tabs on Folding Wingtips (Fwts) for Aircraft Roll Control</i> [Conference Paper].</span></div>
+<div class="text-justify"><span id="RID132">[14] W. Blunt, F. Healy, R. Cheung, M. Lowenberg, and J. Cooper, “Trailing Edge Tabs on Folding Wingtips (Fwts) for Aircraft Roll Control,” San Deigo, United States, 2022. doi: 10.2514/6.2022-0692.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID132">Blunt, W., Healy, F., Cheung, R., Lowenberg, M., &amp; Cooper, J. (2022). <i>Trailing Edge Tabs on Folding Wingtips (Fwts) for Aircraft Roll Control</i> [Conference Paper].</span></div> -->
+<!-- <span id="RID132">[14]W. Blunt, F. Healy, R. Cheung, M. Lowenberg, and J. Cooper, “Trailing Edge Tabs on Folding Wingtips (Fwts) for Aircraft Roll Control,” San Deigo, United States, 2022. doi: 10.2514/6.2022-0692.</span></div> -->
 
 
 
@@ -1108,6 +1789,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID132()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID132()">ABSTRACT</button>
 
 
 
@@ -1126,7 +1809,7 @@ pre{
 
 
 <div id="bRID132" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Civil airliners of the future are set to use longer aspect ratio wings to reduce their induced drag. These lengthened wings lead to higher wing root bending moments and reduce the aircraft’s achievable roll rates. Previous studies have shown that the novel technology of freely hinged folding wingtips can reduce the maximum bending moments experienced during gust loading and reduce the roll damping. This paper examines whether, via the inclusion of tabs on their trailing edge, folding wingtips could also be used to further improve roll performance. A three degree of freedom computational model was derived to predict the response of a wing on a 360 degree rolling rig with flared folding wingtips and tabs to a constant velocity airflow. The equations of motion were derived using the Euler-Lagrange method and the predicted responses corroborated with existing experimental data to confirm the validity of the model. This paper is the first to model folding wingtip tab effects on roll control and concludes that they are a viable method for roll control at sufficient aircraft velocities.</pre>
 </div>
 
 <script>
@@ -1169,10 +1852,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID140">Gu, H., Healy, F., Rezgui, D., &amp; Cooper, J. E. (2022). <i>Sizing of High Aspect Ratio Wings with Folding Wing Tips</i> [Conference Paper].</span></div>
+<div class="text-justify"><span id="RID140">[15] H. Gu, F. Healy, D. Rezgui, and J. E. Cooper, “Sizing of High Aspect Ratio Wings with Folding Wing Tips,” 2022. doi: 10.2514/6.2022-0723.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID140">Gu, H., Healy, F., Rezgui, D., &amp; Cooper, J. E. (2022). <i>Sizing of High Aspect Ratio Wings with Folding Wing Tips</i> [Conference Paper].</span></div> -->
+<!-- <span id="RID140">[15]H. Gu, F. Healy, D. Rezgui, and J. E. Cooper, “Sizing of High Aspect Ratio Wings with Folding Wing Tips,” 2022. doi: 10.2514/6.2022-0723.</span></div> -->
 
 
 
@@ -1188,6 +1871,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID140()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID140()">ABSTRACT</button>
 
 
 
@@ -1205,7 +1890,7 @@ pre{
 
 
 <div id="bRID140" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Folding wingtip (FWT) devices not only enable aircraft incorporating high aspect ratio wings to fit into airport gates, but also can be used as a load alleviation device by allowing the hinge to be released in-flight, known as semi-aeroelastic hinge (SAH). This study establishes a preliminary design framework for wings incorporating such devices, and implements a sizing process to investigate the impact of the device on the wing weight and aircraft range. For the cases considered, it is shown that a 40% reduction in wing weight can be achieved by implementing a SAH device onto a high aspect ratio wing, leading to a 9% improvement in aircraft range.</pre>
 </div>
 
 <script>
@@ -1248,21 +1933,25 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID143">Healy, F., Cheung, R., Rezgui, D., &amp; Cooper, J. (2022). <i>Experimental Analysis of the Behaviour of Flared Folding Wingtips with Sideslip Angle</i> [Conference Paper].</span></div>
+<div class="text-justify"><span id="RID143">[16] F. Healy, R. Cheung, D. Rezgui, and J. Cooper, “Experimental Analysis of the Behaviour of Flared Folding Wingtips with Sideslip Angle,” Madrid, Spain, 2022. Available at: https://www.researchgate.net/publication/361411084</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID143">Healy, F., Cheung, R., Rezgui, D., &amp; Cooper, J. (2022). <i>Experimental Analysis of the Behaviour of Flared Folding Wingtips with Sideslip Angle</i> [Conference Paper].</span></div> -->
+<!-- <span id="RID143">[16]F. Healy, R. Cheung, D. Rezgui, and J. Cooper, “Experimental Analysis of the Behaviour of Flared Folding Wingtips with Sideslip Angle,” Madrid, Spain, 2022. Available at: https://www.researchgate.net/publication/361411084</span></div> -->
 
 
 
 
 
 
+
+<a href="https://www.researchgate.net/publication/361411084" target="_blank"><button class="btn btn-info btm-sm">URL</button></a>
 
 
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID143()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID143()">ABSTRACT</button>
 
 
 
@@ -1272,6 +1961,7 @@ pre{
   title = {Experimental Analysis of the Behaviour of Flared Folding Wingtips with Sideslip Angle},
   organization = {International Forum on Aeroelasticity and Structural Dynamics (IFASD)},
   address = {Madrid, Spain},
+  url = {https://www.researchgate.net/publication/361411084},
   year = {2022},
   type = {Conference Paper}
 }
@@ -1280,7 +1970,7 @@ pre{
 
 
 <div id="bRID143" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>A concept of growing interest in recent years is that of the Flared Folding Wingtip(FFWT), which can be used in-flight to reduce airframe loading due to gust encounters and augment the handling qualities of an aircraft. The performance of an FFWT is affected by the relative angle between the built-in hinge angle and the flow direction. Therefore, a critical question is the behaviour of such a device at a non-zero sideslip angle, where recent studies have shown that a FFWT can collide with the inner wing at sideslip angles within the flight envelope of an aircraft. In this paper the effect of sideslip angle on the stability behaviour of a wing incorporating FFWTs is investigated both experimentally and numerically. It is shown that the response of FFWTs to sideslip varies not only as a function of flare angle, but also with the angle of incidence of the aircraft and the camber or twist of the wingtip itself.</pre>
 </div>
 
 <script>
@@ -1323,10 +2013,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID137">Healy, F., Cheung, R. C., Rezgui, D., Cooper, J. E., Wilson, T., &amp; Castrichini, A. (2022). <i>On the Nonlinear Geometric Behaviour of Flared Folding Wingtips</i> [Conference Paper].</span></div>
+<div class="text-justify"><span id="RID137">[17] F. Healy, R. C. Cheung, D. Rezgui, J. E. Cooper, T. Wilson, and A. Castrichini, “On the Nonlinear Geometric Behaviour of Flared Folding Wingtips,” 2022. doi: 10.2514/6.2022-0656.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID137">Healy, F., Cheung, R. C., Rezgui, D., Cooper, J. E., Wilson, T., &amp; Castrichini, A. (2022). <i>On the Nonlinear Geometric Behaviour of Flared Folding Wingtips</i> [Conference Paper].</span></div> -->
+<!-- <span id="RID137">[17]F. Healy, R. C. Cheung, D. Rezgui, J. E. Cooper, T. Wilson, and A. Castrichini, “On the Nonlinear Geometric Behaviour of Flared Folding Wingtips,” 2022. doi: 10.2514/6.2022-0656.</span></div> -->
 
 
 
@@ -1342,6 +2032,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID137()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID137()">ABSTRACT</button>
 
 
 
@@ -1359,7 +2051,7 @@ pre{
 
 
 <div id="bRID137" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Recent studies have considered the use of flared folding wingtips (FFWTs) to enable higher aspect ratios - reducing overall induced drag - whilst reducing gust loading and meeting airport operational requirements. The majority of these analyses have been conducted using linear assumptions despite the presence of large wingtip deformations. The aim of this work is to assess the effect of geometric nonlinearities introduced by an FFWT on the static and dynamic aeroelastic response of a wing. In this paper, a geometrically exact expression was formulated to describe the change in both the local Angle of Attack (AoA) and sideslip angle across all fold angles. This expression highlighted that the aerodynamic stiffness of an FFWT, and therefore quantities such as the linear flutter speed, are a function of the fold angle and therefore, the attitude of the wing. This effect was then verified using both: a wind tunnel model of a flexible semi-span wing incorporating an Flared Folding Wingtip (FFWT), and a new numerical modelling technique, utilising MSC Nastran, which linearised the model about the equilibrium position of the wingtip. The results of these experiments show that the geometric nonlinearities introduced due to the large deformations of FFWTs can significantly affect the dynamics of the system, with flutter speeds varying by over 25%, simply by changing the root angle of attack of the model. Furthermore, good agreement was found between the experimental results and numerical predictions.</pre>
 </div>
 
 <script>
@@ -1402,21 +2094,25 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID142">Healy, F., Gu, H., Rezgui, D., &amp; Cooper, J. (2022). <i>Observations on the Effect of Geometric Nonlinearities on a Representative Civil Aircraft Incorporating Flared Folding Wingtips</i> [Conference Paper].</span></div>
+<div class="text-justify"><span id="RID142">[18] F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Observations on the Effect of Geometric Nonlinearities on a Representative Civil Aircraft Incorporating Flared Folding Wingtips,” Madrid, Spain, 2022. Available at: https://www.researchgate.net/publication/377679955</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID142">Healy, F., Gu, H., Rezgui, D., &amp; Cooper, J. (2022). <i>Observations on the Effect of Geometric Nonlinearities on a Representative Civil Aircraft Incorporating Flared Folding Wingtips</i> [Conference Paper].</span></div> -->
+<!-- <span id="RID142">[18]F. Healy, H. Gu, D. Rezgui, and J. Cooper, “Observations on the Effect of Geometric Nonlinearities on a Representative Civil Aircraft Incorporating Flared Folding Wingtips,” Madrid, Spain, 2022. Available at: https://www.researchgate.net/publication/377679955</span></div> -->
 
 
 
 
 
 
+
+<a href="https://www.researchgate.net/publication/377679955" target="_blank"><button class="btn btn-info btm-sm">URL</button></a>
 
 
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID142()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID142()">ABSTRACT</button>
 
 
 
@@ -1426,6 +2122,7 @@ pre{
   title = {Observations on the Effect of Geometric Nonlinearities on a Representative Civil Aircraft Incorporating Flared Folding Wingtips},
   organization = {International Forum on Aeroelasticity and Structural Dynamics (IFASD)},
   address = {Madrid, Spain},
+  url = {https://www.researchgate.net/publication/377679955},
   year = {2022},
   type = {Conference Paper}
 }
@@ -1434,7 +2131,7 @@ pre{
 
 
 <div id="bRID142" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Recent studies have considered the use of Flared Folding Wingtips (FFWTs) to enable higher aspect ratios - reducing overall induced drag - whilst reducing gust loading and meeting airport operational requirements. The majority of these analyses have been conducted using linear assumptions despite the presence of large wingtip deformations. This paper applies a recently developed method, utilising MSC Nastran, for modelling the geometric nonlinearities due to the large deformation of folding wingtips on two models of representative civil jet aircraft. The models are used to explore how the dynamic stability and response to gust encounters of an aircraft incorporating FFWTs are effected by large rotations of the wingtips. The results show that the effect of modelling these geometric nonlinearities is highly dependent on the entire aircraft structure, with the nonlinearites modestly affecting the flutter speed in a flutter mechanism dominated by wingtip flapping: however, in the case of more flexible aircraft, the large rotations can significantly change the dynamics of the entire structure.</pre>
 </div>
 
 <script>
@@ -1477,10 +2174,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID114">Gu, H., Healy, F., &amp; Cooper, J. E. (2021). <i>Sizing of High Aspect Ratio Wings Incorporating Folding Wingtip</i> [Conference Paper].</span></div>
+<div class="text-justify"><span id="RID114">[19] H. Gu, F. Healy, and J. E. Cooper, “Sizing of High Aspect Ratio Wings Incorporating Folding Wingtip,” Lisbon, Portugal, 2021.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID114">Gu, H., Healy, F., &amp; Cooper, J. E. (2021). <i>Sizing of High Aspect Ratio Wings Incorporating Folding Wingtip</i> [Conference Paper].</span></div> -->
+<!-- <span id="RID114">[19]H. Gu, F. Healy, and J. E. Cooper, “Sizing of High Aspect Ratio Wings Incorporating Folding Wingtip,” Lisbon, Portugal, 2021.</span></div> -->
 
 
 
@@ -1492,6 +2189,8 @@ pre{
 <!-- Always show BibTeX button for all entries -->
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID114()">BIB</button>
 
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID114()">ABSTRACT</button>
 
 
 
@@ -1509,7 +2208,7 @@ pre{
 
 
 <div id="bRID114" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>There is currently much interest in the development of high Aspect Ratio Wings due to the inherent reduction in induced drag that they provide; however, there are a number of potential problems including the increased structural weight and the limits on the wingspan imposed by the airport gate sizes. The use of floating folding wingtips has been shown to not only enable the aircraft to meet with the operational conditions in the airports, but also to reduce loads imposed on the wing. In this work, a comprehensive sizing of aircraft models is performed for a range of aspect ratios and incorporating a folding wing tip device with semi-aeroelastic hinge. The hinge is locked during cruise allowing the optimum aerodynamic performance to be obtained, while releasing it during gust and manoeuvres to achieve effective load alleviation. It was found that the wing-box mass reduces linearly with increasing proportions of the folding wingtip. A 30% reduction in wing weight can be achieved by extending the folding wingtip up to 40% of the wingspan, leading to an improved performances at the overall system level.</pre>
 </div>
 
 <script>
@@ -1552,10 +2251,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID44">Healy, F., Cheung, R. C., Neofet, T., Lowenberg, M. H., Rezgui, D., Cooper, J. E., Castrichini, A., &amp; Wilson, T. (2021). <i>Folding Wingtips for Improved Roll Performance</i> [Conference Paper]. https://doi.org/10.2514/6.2021-1153</span></div>
+<div class="text-justify"><span id="RID44">[20] F. Healy <i>et al.</i>, “Folding Wingtips for Improved Roll Performance,” 2021. doi: 10.2514/6.2021-1153.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID44">Healy, F., Cheung, R. C., Neofet, T., Lowenberg, M. H., Rezgui, D., Cooper, J. E., Castrichini, A., &amp; Wilson, T. (2021). <i>Folding Wingtips for Improved Roll Performance</i> [Conference Paper]. https://doi.org/10.2514/6.2021-1153</span></div> -->
+<!-- <span id="RID44">[20]F. Healy <i>et al.</i>, “Folding Wingtips for Improved Roll Performance,” 2021. doi: 10.2514/6.2021-1153.</span></div> -->
 
 
 
@@ -1572,6 +2271,8 @@ pre{
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID44()">BIB</button>
 
 
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID44()">ABSTRACT</button>
+
 
 
 <div id="aRID44" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
@@ -1580,7 +2281,6 @@ pre{
   title = {Folding Wingtips for Improved Roll Performance},
   organization = {AIAA Scitech 2021 Forum},
   doi = {10.2514/6.2021-1153},
-  url = {https://doi.org/10.2514/6.2021-1153},
   year = {2021},
   type = {Conference Paper}
 }
@@ -1589,7 +2289,7 @@ pre{
 
 
 <div id="bRID44" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Future aircraft designs look set to use longer wing spans to increase the aspect ratio and therefore overall aerodynamic efficiency of the airframe. Such larger wing spans also reduce roll rates and require increased control surface area to achieve the roll maneuver requirements for certification. In this work, the effect of using flared folding wingtips (FFWTs) on the roll performance of simple aircraft wings is investigated numerically and experimentally. A unique rolling rig is designed, manufactured and tested, with a series of steady roll and transient tests performed for different wing spans, with and without folding wingtips. It is shown that the use of FFWTs on aircraft wings can enable improved aerodynamic performance due to the increased span whilst also significantly reducing the aerodynamic damping due to roll, such that the roll performance of a wing incorporating FFWTs is comparable to that of one without the additional span.</pre>
 </div>
 
 <script>
@@ -1632,10 +2332,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID139">Healy, F., Cheung, R. C., Rezgui, D., &amp; Cooper, J. E. (2021). <i>Nonlinear Stability Analysis and Experimental Exploration of Limit Cycle Oscillations with Flared Folding Wingtips</i> [Conference Paper]. https://doi.org/10.2514/6.2022-0657</span></div>
+<div class="text-justify"><span id="RID139">[21] F. Healy, R. C. Cheung, D. Rezgui, and J. E. Cooper, “Nonlinear Stability Analysis and Experimental Exploration of Limit Cycle Oscillations with Flared Folding Wingtips,” San Deigo, California, USA, 2021. doi: 10.2514/6.2022-0657.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID139">Healy, F., Cheung, R. C., Rezgui, D., &amp; Cooper, J. E. (2021). <i>Nonlinear Stability Analysis and Experimental Exploration of Limit Cycle Oscillations with Flared Folding Wingtips</i> [Conference Paper]. https://doi.org/10.2514/6.2022-0657</span></div> -->
+<!-- <span id="RID139">[21]F. Healy, R. C. Cheung, D. Rezgui, and J. E. Cooper, “Nonlinear Stability Analysis and Experimental Exploration of Limit Cycle Oscillations with Flared Folding Wingtips,” San Deigo, California, USA, 2021. doi: 10.2514/6.2022-0657.</span></div> -->
 
 
 
@@ -1652,6 +2352,8 @@ pre{
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID139()">BIB</button>
 
 
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID139()">ABSTRACT</button>
+
 
 
 <div id="aRID139" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
@@ -1661,7 +2363,6 @@ pre{
   organization = {AIAA SciTech 2022 Forum},
   address = {San Deigo, California, USA},
   doi = {10.2514/6.2022-0657},
-  url = {https://doi.org/10.2514/6.2022-0657},
   year = {2021},
   type = {Conference Paper}
 }
@@ -1670,7 +2371,7 @@ pre{
 
 
 <div id="bRID139" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Recent studies have considered the use of Flared Folding Wingtips (FFWTs) to enable higher aspect ratios - reducing overall induced drag - whilst also reducing gust loading and meeting airport operational requirements. This paper presents the first experimental research into the nonlinear dynamic behaviour of a wing incorporating FFWTs. Wind tunnel tests were conducted at a range of velocities belowand beyond the linear flutter boundary. The experimental findings are compared with results obtained by conducting continuation and bifurcation analyses on a representative low fidelity numerical model. The results show that beyond the linear flutter boundary a stable Limit Cycle Oscillation (LCO) forms which, dependent on the flare angle, is bounded by either geometric or aerodynamic nonlinearities. Also presented is the effect of a wingtip trim tab on the stability boundary of a wing incorporating FFWTs. It is found that the tab angle can significantly alter the stability boundary of the system, indicating that a moveable control surface on a FFWT could be used ?in-flight? to extend the stability boundary of an aircraft.</pre>
 </div>
 
 <script>
@@ -1713,10 +2414,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RID138">Healy, F., Pontillo, A., Rezgui, D., Cooper, J. E., Kirk, J., Wilson, T., &amp; Castrichini, A. (2021). <i>Experimental Analysis of the Dynamics of Flared Folding Wingtips Via a Novel Tethered Flight Test</i> [Conference Paper]. https://doi.org/10.2514/6.2022-1757</span></div>
+<div class="text-justify"><span id="RID138">[22] F. Healy <i>et al.</i>, “Experimental Analysis of the Dynamics of Flared Folding Wingtips Via a Novel Tethered Flight Test,” San Diego, California, USA, 2021. doi: 10.2514/6.2022-1757.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RID138">Healy, F., Pontillo, A., Rezgui, D., Cooper, J. E., Kirk, J., Wilson, T., &amp; Castrichini, A. (2021). <i>Experimental Analysis of the Dynamics of Flared Folding Wingtips Via a Novel Tethered Flight Test</i> [Conference Paper]. https://doi.org/10.2514/6.2022-1757</span></div> -->
+<!-- <span id="RID138">[22]F. Healy <i>et al.</i>, “Experimental Analysis of the Dynamics of Flared Folding Wingtips Via a Novel Tethered Flight Test,” San Diego, California, USA, 2021. doi: 10.2514/6.2022-1757.</span></div> -->
 
 
 
@@ -1733,6 +2434,8 @@ pre{
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexRID138()">BIB</button>
 
 
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRID138()">ABSTRACT</button>
+
 
 
 <div id="aRID138" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
@@ -1742,7 +2445,6 @@ pre{
   organization = {AIAA SCITECH 2022 Forum},
   address = {San Diego, California, USA},
   doi = {10.2514/6.2022-1757},
-  url = {https://doi.org/10.2514/6.2022-1757},
   year = {2021},
   type = {Conference Paper}
 }
@@ -1751,7 +2453,7 @@ pre{
 
 
 <div id="bRID138" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre></pre>
+<pre>Recent developments in morphing wing technologies are routinely tested using Unmanned Aerial vehicles (UAVs) due to their relatively low cost and time to manufacture. However, atmospheric flight tests limit both the repeatability of the recorded data sets, as well as the bounds of the flight envelope willing to be explored, due to the risk of destroying the UAV. In this paper, a novel flight test method is described, which consists of flying a UAV constrained by a tether, resulting in a steady, controlled, elliptical flight paths. The benefits of such a method are explored numerically to characterise the static and dynamic testing capabilities of such a system. This is then followed by an experimental investigation into the behaviour of semi-aeroelastic hinged (SAH) wingtips, employing the AlbatrossOne remotely piloted vehicle. The tethered model was used to explore the static effect of angle of attack and sideslip angle on the both the equilibrium position of the wingtips and the wingtips stability boundary.</pre>
 </div>
 
 <script>
@@ -1774,6 +2476,7 @@ function toggleAbstractRID138(parameter) {
 </script>
 </li></ol>
 </div>
+
 
 </div>
 
