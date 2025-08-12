@@ -3,7 +3,6 @@ title: "Publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
-years: [2016, 2017, 2018, 2019, 2020, 2021]
 ---
 
 <style>
@@ -16,16 +15,15 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 }
 </style>
 
-
 <div class="jumbotron">
 ### Thesis
 {% bibliography --query @phdthesis %}
 </div>
 
-<!-- <div class="jumbotron">
+<div class="jumbotron">
 ### Preprints
 {% bibliography --query @unpublished %}
-</div> -->
+</div>
 
 <div class="jumbotron">
 ### Journal articles

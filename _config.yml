@@ -5,10 +5,10 @@ description: Academic webpage of Dr. Fintan Healy
 baseurl: ""
 url: ""
 
-# Google analytics ID: Uncomment and your own, if you like
-# google_analytics: XX
-# google_analytics_4: XXX
-# google_tag_manager: XXX
+
+# for google webpage analytics
+google_analytics_4: "G-HRQJDT38M5"
+
 
 # Footer info
 affiliation: >
