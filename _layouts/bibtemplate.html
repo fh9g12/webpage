@@ -23,7 +23,7 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
+<div class="text-justify">{{ reference | replace_first: ']', '] ' }}</div>
 
 <!-- You can use the below to make your name bold -->
 <!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
@@ -48,6 +48,8 @@ pre{
 {% else %}
 <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
 {% endif %}
+{% elsif entry.url %}
+<a href="{{ entry.url }}" target="_blank"><button class="btn btn-info btm-sm">URL</button></a>
 {% endif %}
 
 <!-- Always show BibTeX button for all entries -->

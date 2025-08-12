@@ -671,7 +671,7 @@
           </else-if>
           <else>
             <group delimiter=" ">
-              <text variable="genre"/>
+              <!-- <text variable="genre"/> Commented out to hide type field -->
               <group delimiter=" ">
                 <choose>
                   <if variable="chapter-number container-title" match="none">

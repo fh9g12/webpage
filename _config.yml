@@ -29,12 +29,13 @@ contact: >
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
-  - name: research
   - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
+  # - name: talks
+  # - name: research
+  # - name: team
+  # - name: teaching
+  # - name: blogs
+
 
 include:
   - .htaccess
@@ -67,10 +68,10 @@ sass:
   style: compressed
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Healy
+  first_name: [Fintan]
 
-  style: citesty
+  style: ieee
   locale: en
 
   source: /assets/
