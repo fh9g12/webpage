@@ -12,7 +12,7 @@ permalink: /about/
   margin: 15px 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 1px;
   align-items: center;
 }
 
@@ -28,6 +28,17 @@ permalink: /about/
 
 .social-links i {
   margin: 0;
+  /* Normalize icon sizes between Font Awesome and Academicons */
+  font-size: 3em !important;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Specific adjustments for Academicons if needed */
+.social-links .ai {
+  font-size: 2.9em !important;
 }
 </style>
 
@@ -60,6 +71,12 @@ permalink: /about/
 {% if member.scholar %}
 <a href="{{ member.scholar }}" target="_blank" title="Google Scholar">
 <i class="ai ai-google-scholar-square ai-3x"></i>
+</a>
+{% endif %}
+
+{% if member.orcid %}
+<a href="{{ member.orcid }}" target="_blank" title="ORCID">
+<i class="ai ai-orcid-square ai-3x"></i>
 </a>
 {% endif %}
 

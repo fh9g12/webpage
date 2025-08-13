@@ -1,17 +1,87 @@
+<style>
+.social-links {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  align-items: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+}
+
+.social-links i {
+  margin: 0;
+  /* Smaller icons for sidebar to fit on one line */
+  font-size: 2.8em !important;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Specific adjustments for Academicons */
+.social-links .ai {
+  font-size: 2.6em !important;
+}
+</style>
+
 <div>
 {% for member in site.data.pi %}
 <div class="jumbotron">
    <center>
    <a href="{{site.url}}{{site.baseurl}}/about"><img src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}" width="60%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
    <h4>{{ member.name }}</h4>
-   <div style="margin-bottom:5px">
-   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
-   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
-   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> {% endif %}
-   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
-  </div>
+   
+   <div class="social-links" style="justify-content: center;">
+{% if member.email %}
+<a href="mailto:{{ member.email }}" target="_blank" title="Email">
+<i class="fa fa-envelope-square fa-3x"></i>
+</a>
+{% endif %}
+
+{% if member.cv %}
+<a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank" title="CV">
+<i class="ai ai-cv-square ai-3x"></i>
+</a>
+{% endif %}
+
+{% if member.scholar %}
+<a href="{{ member.scholar }}" target="_blank" title="Google Scholar">
+<i class="ai ai-google-scholar-square ai-3x"></i>
+</a>
+{% endif %}
+
+{% if member.orcid %}
+<a href="{{ member.orcid }}" target="_blank" title="ORCID">
+<i class="ai ai-orcid-square ai-3x"></i>
+</a>
+{% endif %}
+
+{% if member.linkedin %}
+<a href="{{ member.linkedin }}" target="_blank" title="LinkedIn">
+<i class="fa fa-linkedin-square fa-3x"></i>
+</a>
+{% endif %}
+
+{% if member.github %}
+<a href="{{ member.github }}" target="_blank" title="GitHub">
+<i class="fa fa-github-square fa-3x"></i>
+</a>
+{% endif %}
+
+{% if member.researchgate %}
+<a href="{{ member.researchgate }}" target="_blank" title="ResearchGate">
+<i class="ai ai-researchgate-square ai-3x"></i>
+</a>
+{% endif %}
+   </div>
   </center>
 
   <ul style="overflow: hidden">
