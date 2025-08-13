@@ -5,7 +5,9 @@ sitemap: false
 permalink: /team/
 ---
 
-## Team
+Under development, Come back soon!
+
+<!-- ## Team
 
 **We are looking for new team members** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
@@ -64,7 +66,7 @@ permalink: /team/
 </div>
 <!-- </div> -->
 
-{% assign number_printed = number_printed | plus: 1 %}
+<!-- {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
 
@@ -120,4 +122,4 @@ permalink: /team/
 
 ## Administrative Support
 
-<a href="exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
+<a href="exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration. -->

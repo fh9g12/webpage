@@ -32,10 +32,12 @@ iframe {
 
 ## Research
 
-<div class="jumbotron">
+Under development, Come back soon!
+
+<!-- <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Example Research</h4>
 
 Example description
 </div>
-</div>
+</div> -->

@@ -22,7 +22,9 @@ permalink: /talks/
 }
 </style>
 
-<div class="jumbotron">
+Under development, Come back soon!
+
+<!-- <div class="jumbotron">
 ### Invited talks
 {% bibliography --query @incollection[keywords ^= invited] %}
 </div>
@@ -30,4 +32,4 @@ permalink: /talks/
 <div class="jumbotron">
 ### Regular talks
 {% bibliography --query @incollection[keywords != invited] %}
-</div>
+</div> -->
