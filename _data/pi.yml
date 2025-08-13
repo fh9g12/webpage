@@ -1,6 +1,8 @@
 - name: Dr. Fintan Healy
   photo: FH-portrait.jpg
-  info: Fintan Healy, University of Bristol
+  info: |
+    Lecturer in Aerospace Engineering
+    University of Bristol
   email: fintan.healy@bristol.ac.uk
   github: https://github.com/fh9g12/
   researchgate: https://www.researchgate.net/profile/Fintan-Healy-2

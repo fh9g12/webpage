@@ -7,6 +7,30 @@ sitemap:
 permalink: /about/
 ---
 
+<style>
+.social-links {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  /* Remove color: inherit to let the original theme colors show */
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+}
+
+.social-links i {
+  margin: 0;
+}
+</style>
+
 ## About Dr. Fintan Healy
 
 {% for member in site.data.pi %}
@@ -18,13 +42,45 @@ permalink: /about/
 </div>
 <div class="col-sm-8 col-xs-12">
   <h3>{{ member.name }}</h3>
-  <h4><i>{{ member.info }}</i></h4>
-  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
-  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
-  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-square-linkedin ai-3x"></i></a> {% endif %}
-  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
+  <h4><i>{{ member.info | newline_to_br }}</i></h4>
+  
+  <div class="social-links">
+{% if member.email %}
+<a href="mailto:{{ member.email }}" target="_blank" title="Email">
+<i class="fa fa-envelope-square fa-3x"></i>
+</a>
+{% endif %}
+
+{% if member.cv %}
+<a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank" title="CV">
+<i class="ai ai-cv-square ai-3x"></i>
+</a>
+{% endif %}
+
+{% if member.scholar %}
+<a href="{{ member.scholar }}" target="_blank" title="Google Scholar">
+<i class="ai ai-google-scholar-square ai-3x"></i>
+</a>
+{% endif %}
+
+{% if member.github %}
+<a href="{{ member.github }}" target="_blank" title="GitHub">
+<i class="fa fa-github-square fa-3x"></i>
+</a>
+{% endif %}
+
+{% if member.linkedin %}
+<a href="{{ member.linkedin }}" target="_blank" title="LinkedIn">
+<i class="fa fa-linkedin-square fa-3x"></i>
+</a>
+{% endif %}
+
+{% if member.researchgate %}
+<a href="{{ member.researchgate }}" target="_blank" title="ResearchGate">
+<i class="ai ai-researchgate-square ai-3x"></i>
+</a>
+{% endif %}
+  </div>
 
   <ul style="overflow: hidden">
     {% for education in member.education %}
