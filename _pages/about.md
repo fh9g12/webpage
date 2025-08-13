@@ -1,11 +1,13 @@
 ---
 title: "About"
 layout: gridlay
-sitemap: false
+sitemap: 
+  priority: 0.5
+  changefreq: monthly
 permalink: /about/
 ---
 
-## About
+## About Dr. Fintan Healy
 
 {% for member in site.data.pi %}
 

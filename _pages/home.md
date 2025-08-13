@@ -1,15 +1,17 @@
 ---
 title: "Home"
 layout: homelay
-sitemap: false
+sitemap:
+  priority: 1.0
+  changefreq: weekly
 permalink: /
 ---
 
-### Welcome!
+### Welcome to My Academic Profile
 
-Welcome to my Academic profile! I work on the experimental and numerical aeroelastic testing of highly flexible aircraft, developing modelling tools to evaluate nonlinear deflections and assess novel load alleviation strategies for next-generation aircraft.
+I am a Lecturer in Aerospace Engineering at the University of Bristol, specializing in experimental and numerical aeroelastic testing of highly flexible aircraft. My research focuses on developing modelling tools to evaluate nonlinear deflections and assess novel load alleviation strategies for next-generation aircraft.
 
-### About me
+### About Dr. Fintan Healy
 
 I am an aerospace researcher focused on the aeroelastic behaviour of highly flexible aircraft. I have a background in structural dynamics, experimental testing, and numerical modelling, developed through my engineering studies and a stint in industry.
 

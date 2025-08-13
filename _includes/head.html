@@ -5,6 +5,54 @@
 
   <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="Fintan Healy, Dr Fintan Healy, Aerospace Engineering, University of Bristol, Research, Academic, Bristol University, Aerospace, Engineering, PhD, Southampton">
+  <meta name="author" content="Dr. Fintan Healy">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
+  <meta property="og:title" content="{{ site.title | escape }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/FH-portrait.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}{{ site.baseurl }}">
+  <meta property="twitter:title" content="{{ site.title | escape }}">
+  <meta property="twitter:description" content="{{ site.description }}">
+  <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/FH-portrait.jpg">
+  
+  <!-- JSON-LD structured data for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dr. Fintan Healy",
+    "jobTitle": "Lecturer in Aerospace Engineering",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "University of Bristol"
+    },
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "image": "{{ site.url }}{{ site.baseurl }}/images/FH-portrait.jpg",
+    "sameAs": [
+      "{{ site.data.pi[0].linkedin }}",
+      "{{ site.data.pi[0].github }}",
+      "{{ site.data.pi[0].scholar }}",
+      "{{ site.data.pi[0].researchgate }}"
+    ],
+    "alumniOf": [
+      {
+        "@type": "Organization",
+        "name": "University of Bristol"
+      },
+      {
+        "@type": "Organization", 
+        "name": "University of Southampton"
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico">
