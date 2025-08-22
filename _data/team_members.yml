@@ -1,9 +1,11 @@
-- name: Example student name
-  photo: rock.jpg
-  info: Postdoc, started Oct 2040
-  email: exampleemail@gmail.com
-  website: https://website.com
+- name: Francesco Sacchi
+  photo: no-portrait.png
+  info: PhD Student, started Sept 2024
+  email: vm19436@bristol.ac.uk
+  active: true
+  website: https://research-information.bris.ac.uk/en/persons/francesco-sacchi
 
-- name: "This could be you !"
-  photo: rock.jpg
+- name: "This could be you!"
+  photo: no-portrait.png
+  active: true
   info: See <a href="www">openings</a> for more info

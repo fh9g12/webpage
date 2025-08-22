@@ -1,0 +1,13 @@
+- name: Josh Sneddon
+  photo: rock.jpg
+  duration: 2023-2025
+  active: false 
+  info: Undertook a 3rd research project sizing forward swept wings and a 4th year research project on active control of folding wingtips
+  linkedin: https://www.linkedin.com/in/josh-sneddon/
+
+- name: Ellie Rowland
+  photo: rock.jpg
+  duration: 2025
+  active: false 
+  info: Completed a summer internship looking at "Optical Tracking Methodologies for Static and Dynamic Aeroelastic Testing"
+  linkedin: https://www.linkedin.com/in/ellie-rowland/
